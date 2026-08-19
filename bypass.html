@@ -1,0 +1,25 @@
+<!-- 
+There are two options for this. 
+
+1. (Recommended) Can be used offline
+2. Visually less code
+
+Both options produce the same outcome
+
+-->
+
+
+<!-- Option 1 -->
+
+<script>
+  const iframe = document.createElement("iframe");
+  document.body.appendChild(iframe);
+  iframe.contentDocument.write("<iframe>");
+</script>
+
+
+
+
+<!-- Option 2 -->
+
+<script src="https://thatkidfr.github.io/DOMObserverBypass/bypass.js">
