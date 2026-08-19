@@ -20,7 +20,9 @@
     }
   </style>
   <script>
-    document.write("<h1>");
+    const iframe = document.createElement("iframe");
+    iframe.contentDocument.write("<iframe src='https://example.com'>");
+    document.appendChild(iframe);
   </script>
 </head>
 <body>
