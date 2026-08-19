@@ -7,7 +7,7 @@
   <title>Example Page</title>
   <style>
     iframe {
-      display: block;
+      display: none;
     }
   </style>
 </head>
@@ -18,7 +18,7 @@
   <script>
     const iframe = document.createElement("iframe");
     document.body.appendChild(iframe);
-    iframe.contentDocument.write("<iframe src='https://example.com'>");
+    iframe.contentDocument.write("<iframe>");
   </script>
 
   <p>This will not be displayed. The code above freezes the webpage.</p>
