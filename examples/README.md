@@ -2,10 +2,16 @@
 
 Two simple examples as a starting point.
 
-## Example 1
+## Bypass Example
 
 This demonstrates the use of bypass.js / bypass.html to force-load a webpage forever
 
 ## Iframe Example
 
 If a specific website is getting flagged by the DOM Observer, an iframe combined with the webpage loading will typically fix the issue.
+
+## Live Demos
+
+[Bypass Example](https://thatkidfr.github.io/DOMObserverBypass/examples/example.html)
+
+[Iframe Example](https://thatkidfr.github.io/DOMObserverBypass/examples/example-iframe.html)
