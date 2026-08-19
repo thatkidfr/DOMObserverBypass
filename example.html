@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <h1>Tab is now frozen from DOM mutations/updates</h1>
+  <h1>Tab is now always loading to prevent DOM mutations/updates</h1>
 
   <script>
     const iframe = document.createElement("iframe");
@@ -21,7 +21,6 @@
     iframe.contentDocument.write("<iframe>");
   </script>
 
-  <p>This will not be displayed. The code above freezes the webpage.</p>
 
 </body>
 </html>
