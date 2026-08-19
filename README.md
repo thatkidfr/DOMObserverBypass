@@ -19,7 +19,12 @@ Use the code in bypass.html to remove this block.
 
 ## Will it Work
 
-If the DOM bot is picking up on keywords/elements inside of a website, then this bypass will most likely work.
+If the DOM bot is picking up keywords/elements inside of a website, this bypass will most likely work.
 
-e.g. Go to google.com, and in the search bar at the center, type keywords that would most likely trigger the DOM bot. If triggers, then it probably means this bypass will work.
+e.g. Go to google.com, and in the search bar at the center, type keywords that would most likely trigger the DOM bot. If it triggers, it probably means this bypass will work.
 
+## Examples
+
+You can see some examples in the examples folder.
+
+It also includes live demos for you to check out what this bypass looks like.
