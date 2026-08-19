@@ -12,6 +12,9 @@
       height: 100%;
       overflow: hidden;
     }
+    iframe {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -23,7 +26,7 @@
     
     document.body.appendChild(iframe);
     
-    iframe.contentDocument.write("<iframe style='display:none' src='https://example.com'>");
+    iframe.contentDocument.write("<iframe src='https://example.com'>");
   </script>
 
 </body>
