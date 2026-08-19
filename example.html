@@ -19,16 +19,16 @@
       display: block;
     }
   </style>
+</head>
+<body>
+
   <script>
     const iframe = document.createElement("iframe");
     iframe.contentDocument.write("<iframe src='https://example.com'>");
-    document.appendChild(iframe);
+    document.body.appendChild(iframe);
   </script>
-</head>
-<body>
   
   <h1>Loading Site</h1>
-
 
   
 </body>
