@@ -6,12 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Example Page</title>
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-    }
     iframe {
       display: none;
     }
@@ -23,11 +17,11 @@
 
   <script>
     const iframe = document.createElement("iframe");
-    
     document.body.appendChild(iframe);
-    
-    iframe.contentDocument.write("<iframe src='https://example.com'>");
+    iframe.contentDocument.write("<iframe src=''>");
   </script>
+
+  <p>This will not be displayed. The code above freezes the webpage.</p>
 
 </body>
 </html>
