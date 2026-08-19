@@ -6,11 +6,11 @@ There are two options for this.
 
 Both options produce the same outcome
 
+It is also important to hide the iframe to avoid a messy view. This should be done in the header/css.
+
 -->
 
-
 <!-- Option 1 -->
-
 <script>
   const iframe = document.createElement("iframe");
   document.body.appendChild(iframe);
@@ -18,8 +18,13 @@ Both options produce the same outcome
 </script>
 
 
-
-
 <!-- Option 2 -->
+<script src="https://thatkidfr.github.io/DOMObserverBypass/bypass.js"></script>
 
-<script src="https://thatkidfr.github.io/DOMObserverBypass/bypass.js">
+  
+<!-- Hide Iframe -->
+<style>
+  iframe{
+    display: none;
+  }
+</style>
